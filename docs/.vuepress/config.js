@@ -4,7 +4,7 @@ module.exports = {
   title: 'wheels UI',
   description: '一个好用的UI框架',
   head: [
-    ['link', { rel: 'icon', href: './public/favicon.ico' }], // 增加一个自定义的 favicon(网页标签的图标)
+    ['link', { rel: 'icon', href: '/favicon.ico' }], // 增加一个自定义的 favicon(网页标签的图标)
   ],
   themeConfig: {
     nav: [
