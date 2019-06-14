@@ -12,5 +12,7 @@
 
 <style lang="scss" scoped>
   .header {
+      height: 20%;
+      background:#00adb5;
   }
 </style>

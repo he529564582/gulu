@@ -1,3 +1,4 @@
+
 <template>
   <transition name="slide">
     <div class="sider" v-if="visible">
@@ -20,6 +21,8 @@
 
 <style lang="scss" scoped>
   .sider {
+    background:#55e9bc; 
+    width:20%; 
     position: relative;
     > button {
       position: absolute;
@@ -31,6 +34,6 @@
     transition: all .3s;
   }
   .slide-enter, .slide-leave-to {
-    margin-left: -200px;
+    // margin-left: -100px;
   }
 </style>

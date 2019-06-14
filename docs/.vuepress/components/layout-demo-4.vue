@@ -1,19 +1,18 @@
 <template>
   <div style="padding-top: 16px;">
-    <h2>布局3</h2>
+    <h2>布局4</h2>
     <p>
       <strong>预览</strong>
     </p>
 
-
     <g-layout>
+      <g-sider >sider</g-sider>
+      <g-layout>
         <g-header>header</g-header>
-        <g-layout>
-            <g-content>content</g-content>
-            <g-sider>sider</g-sider>
+        <g-content >content</g-content>
+        <g-footer >footer</g-footer>
         </g-layout>
-        <g-footer>footer</g-footer>
-    </g-layout>
+        </g-layout>
     <p>
       <strong>代码</strong>
     </p>
@@ -32,19 +31,18 @@
   import GContent from '../../../src/layout/content'
   import GSider from '../../../src/layout/sider'
 
-
   export default {
     components: {GLayout, GHeader, GFooter, GContent, GSider},
     data () {
       return {
         content: `
 <g-layout>
-    <g-header>header</g-header>
+    <g-sider >sider</g-sider>
     <g-layout>
-    <g-content>content</g-content>
-    <g-sider>sider</g-sider>
+    <g-header>header</g-header>
+    <g-content >content</g-content>
+    <g-footer >footer</g-footer>
     </g-layout>
-    <g-footer>footer</g-footer>
 </g-layout>
       `.replace(/^ {8}/gm, '').trim()
       }

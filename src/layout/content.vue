@@ -13,5 +13,6 @@
 <style lang="scss" scoped>
   .gulu-content {
     flex-grow: 1;
+    background:#ffebb7;
   }
 </style>

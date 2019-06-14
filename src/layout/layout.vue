@@ -28,6 +28,8 @@
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    color: white; 
+    height: 500px;;
     &.hasSider {
       flex-direction: row;
     }
