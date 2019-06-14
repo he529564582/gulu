@@ -29,6 +29,26 @@
         <div class="demoCol">6</div>
       </g-col>
     </g-row>
+    <g-row class="demoRow" gutter="10">
+      <g-col span="4">
+        <div class="demoCol">4</div>
+      </g-col>
+      <g-col span="4">
+        <div class="demoCol">4</div>
+      </g-col>
+      <g-col span="4">
+        <div class="demoCol">4</div>
+      </g-col>
+      <g-col span="4">
+        <div class="demoCol">4</div>
+      </g-col>
+    <g-col span="4">
+        <div class="demoCol">4</div>
+      </g-col>
+    <g-col span="4">
+        <div class="demoCol">4</div>
+      </g-col>
+    </g-row>
 
     <p>
       <strong>代码</strong>
@@ -46,7 +66,7 @@
   .demoCol {
     height: 50px;
     border: 1px solid #ccc;
-    background: #eee;
+    background: #3490de;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,6 +111,26 @@
               <div class="demoCol">6</div>
             </g-col>
           </g-row>
+            <g-row class="demoRow" gutter="10">
+            <g-col span="4">
+                <div class="demoCol">4</div>
+            </g-col>
+            <g-col span="4">
+                <div class="demoCol">4</div>
+            </g-col>
+            <g-col span="4">
+                <div class="demoCol">4</div>
+            </g-col>
+            <g-col span="4">
+                <div class="demoCol">4</div>
+            </g-col>
+            <g-col span="4">
+                <div class="demoCol">4</div>
+            </g-col>
+            <g-col span="4">
+                <div class="demoCol">4</div>
+            </g-col>
+            </g-row>
 
 
 

@@ -49,44 +49,7 @@
         <div class="demoCol">4</div>
       </g-col>
     </g-row>
-    <g-row class="demoRow">
-      <g-col span="2">
-        <div class="demoCol">2</div>
-      </g-col>
-      <g-col span="2">
-        <div class="demoCol">2</div>
-      </g-col>
-      <g-col span="2">
-        <div class="demoCol">2</div>
-      </g-col>
-      <g-col span="2">
-        <div class="demoCol">2</div>
-      </g-col>
-      <g-col span="2">
-        <div class="demoCol">2</div>
-      </g-col>
-      <g-col span="2">
-        <div class="demoCol">2</div>
-      </g-col>
-      <g-col span="2">
-        <div class="demoCol">2</div>
-      </g-col>
-      <g-col span="2">
-        <div class="demoCol">2</div>
-      </g-col>
-      <g-col span="2">
-        <div class="demoCol">2</div>
-      </g-col>
-      <g-col span="2">
-        <div class="demoCol">2</div>
-      </g-col>
-      <g-col span="2">
-        <div class="demoCol">2</div>
-      </g-col>
-      <g-col span="2">
-        <div class="demoCol">2</div>
-      </g-col>
-    </g-row>
+
 
     <p>
       <strong>代码</strong>
@@ -104,7 +67,7 @@
   .demoCol {
     height: 50px;
     border: 1px solid #ccc;
-    background: #eee;
+    background: #00adb5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,45 +131,6 @@
             </g-col>
             <g-col span="4">
               <div class="demoCol">4</div>
-            </g-col>
-          </g-row>
-
-          <g-row class="demoRow">
-            <g-col span="2">
-              <div class="demoCol">2</div>
-            </g-col>
-            <g-col span="2">
-              <div class="demoCol">2</div>
-            </g-col>
-            <g-col span="2">
-              <div class="demoCol">2</div>
-            </g-col>
-            <g-col span="2">
-              <div class="demoCol">2</div>
-            </g-col>
-            <g-col span="2">
-              <div class="demoCol">2</div>
-            </g-col>
-            <g-col span="2">
-              <div class="demoCol">2</div>
-            </g-col>
-            <g-col span="2">
-              <div class="demoCol">2</div>
-            </g-col>
-            <g-col span="2">
-              <div class="demoCol">2</div>
-            </g-col>
-            <g-col span="2">
-              <div class="demoCol">2</div>
-            </g-col>
-            <g-col span="2">
-              <div class="demoCol">2</div>
-            </g-col>
-            <g-col span="2">
-              <div class="demoCol">2</div>
-            </g-col>
-            <g-col span="2">
-              <div class="demoCol">2</div>
             </g-col>
           </g-row>
       `.replace(/^ {8}/gm, '').trim()
