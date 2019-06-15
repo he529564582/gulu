@@ -6,13 +6,13 @@
     </p>
     <g-slides :selected.sync="selected">
       <g-slides-item name="1">
-        <div class="box">1</div>
+        <div class="box box1">1</div>
       </g-slides-item>
       <g-slides-item name="2">
-        <div class="box">2</div>
+        <div class="box box2">2</div>
       </g-slides-item>
       <g-slides-item name="3">
-        <div class="box">3</div>
+        <div class="box box3">3</div>
       </g-slides-item>
     </g-slides>
 
@@ -36,31 +36,18 @@
         content: `
           <g-slides :selected.sync="selected">
             <g-slides-item name="1">
-              <div class="box">1</div>
+              <div class="box box1">1</div>
             </g-slides-item>
             <g-slides-item name="2">
-              <div class="box">2</div>
+              <div class="box box2">2</div>
             </g-slides-item>
             <g-slides-item name="3">
-              <div class="box">3</div>
+              <div class="box box3">3</div>
             </g-slides-item>
           </g-slides>
-
           data: {
             selected: '1'
           }
-
-          <style lang="scss" scoped>
-            .box{
-              height: 300px;
-              background: blue;
-              color: white;
-              font-size: 30px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-            } 
-          </style>
 
       `.replace(/^ {8}/gm, '').trim()
       }
@@ -70,12 +57,20 @@
 <style lang="scss" scoped>
   @import 'var';
   .box{
-    height: 300px;
-    background: $blue;
-    color: white;
+    height: 350px;
+    color: #364f6b;
     font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
   } 
+  .box1{
+    background: #00b8a9;
+  }
+  .box2{
+    background: #eb586f;
+  }
+  .box3{
+    background: #4aa0d5;
+  }
 </style>

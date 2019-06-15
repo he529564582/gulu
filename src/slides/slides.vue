@@ -183,7 +183,7 @@
           cursor: pointer;
         }
         &.active {
-          background: black;
+          background: #0d7377;
           color: white;
           &:hover {
             cursor: default;

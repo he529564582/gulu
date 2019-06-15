@@ -149,6 +149,7 @@
     background: white;
     padding: .5em 1em;
     max-width: 20em;
+    color: #00b8a9;
     word-break: break-all;
     &::before, &::after {
       content: '';
