@@ -86,7 +86,7 @@
 <style scoped lang="scss">
   $font-size: 14px;
   $toast-min-height: 40px;
-  $toast-bg: rgba(0, 0, 0, 0.75);
+  $toast-bg: #bbded6;
   @keyframes slide-up {
     0% {opacity: 0; transform: translateY(100%);}
     100% {opacity: 1;transform: translateY(0%);}
@@ -131,7 +131,7 @@
   .toast {
     font-size: $font-size; min-height: $toast-min-height; line-height: 1.8;
     display: flex;
-    color: white; align-items: center; background: $toast-bg; border-radius: 4px;
+    color: #00adb5; align-items: center; background: $toast-bg; border-radius: 4px;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.50); padding: 0 16px;
     .message {
       padding: 8px 0;

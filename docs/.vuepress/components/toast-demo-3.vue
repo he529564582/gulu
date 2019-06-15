@@ -38,24 +38,14 @@
     data () {
       return {
         content: `
-          <style>
-            .gulu-toast {
-              z-index: 30;
-            }
-          </style>
-
           <div>
             <g-button @click="onClickButton">上方弹出</g-button>
           </div>
-
           methods: {
             onClickButton () {
-              this.$toast('你知道我在等你吗？', {
+              this.$toast('加粗的提示', {
                 closeButton: {
-                  text: '知道了',
-                  callback: () => {
-                    console.log('他说知道了')
-                  }
+                  text: '关闭',
                 }
               })
             }
