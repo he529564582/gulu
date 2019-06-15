@@ -12,8 +12,8 @@ wheels UI 是一个普通的UI框架。
 
 ### 有哪些轮子
 
-* 简单轮子：按钮、输入框、网格、布局、Toast、Tabs、Popover、手风琴（代码已完成）
-* 进阶轮子：级联选择、无缝轮播、响应式导航条、分页、表单验证、Table、图片上传、Sticky、Tree、Suggestion、Datepicker（代码未完成）
+* 简单轮子：按钮、输入框、网格、布局、Toast、Tabs、Popover、手风琴 轮播（已完成）
+* 进阶轮子：级联选择、无缝轮播、响应式导航条、分页、表单验证、Table、图片上传、Sticky、Tree、Suggestion、Datepicker（未完成）
 
 注意：这只是目前的计划，具体要完成的轮子可能与上面有出入。
 
@@ -30,7 +30,7 @@ wheels UI 是一个普通的UI框架。
 
 本 UI 框架借鉴了一些成熟 UI 框架（如 [Framework7](https://framework7.io/)、[Element UI](https://element.eleme.cn/#/zh-CN/component/installation) 和 [Ant Design](https://ant.design/index-cn)）的外观，
 
-如果你发现视觉稿有什么不足的地方，可以直接在上面留言，我也会看到。
+
 
 
 
