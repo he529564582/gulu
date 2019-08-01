@@ -14,11 +14,11 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: '入门',
+        title: '文档',
         collapsable: false,
         children: [
           '/install/',
-          '/get-started/',
+          '/introduction/',
         ]
       },
       {
