@@ -50,6 +50,6 @@ wheels UI 是一个普通的UI框架。
 
 2. 启动 dev server
     ```
-    yarn serve
+    yarn server
     ```
 
