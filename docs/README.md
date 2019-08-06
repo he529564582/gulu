@@ -2,7 +2,7 @@
 home: true
 heroImage: 
 actionText: 快速上手 →
-actionLink: /introduction/
+actionLink: /install/
 features:
 - title: 简明优先
   details: 极简化设计，注重内部功能实现。
